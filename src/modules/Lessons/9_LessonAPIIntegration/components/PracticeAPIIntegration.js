@@ -1,6 +1,6 @@
 import React from 'react';
 
-import GitDashboard from './part5/GitDashboard';
+import GitDashboard from './part1/GitDashboard';
 
 import './PracticeAPIIntegration.css'
 

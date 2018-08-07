@@ -11,7 +11,7 @@ class ProfileImage extends Component {
 
 	render() {
 		return (
-			<img src={this.state.avatar_url} width="100" />
+			<img alt={this.state.avatar_url} src={this.state.avatar_url} width="100" />
 		)
 	}
 }

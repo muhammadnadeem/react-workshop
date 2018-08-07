@@ -28,7 +28,7 @@ UserDetails.propTypes = {
 	login: PropTypes.string.isRequired,
 	url: PropTypes.string.isRequired,
 	type: PropTypes.string.isRequired,
-	site_admin: PropTypes.string.isRequired,
+	site_admin: PropTypes.bool.isRequired,
 };
 
 export default UserDetails;

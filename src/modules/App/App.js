@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Lessons from '../Lessons/Lessons';
+import Nav from './components/Nav/Nav';
+import ROUTER from './../../routes';
+
 
 import './App.css';
 
@@ -11,7 +13,12 @@ class App extends Component {
     return (
       <div className="App">
         <Header/>
-        <Lessons />
+          <div className="lessons">
+            <Nav />
+              <div className="lesson-body">
+                  {ROUTER}
+              </div>
+          </div>
         <Footer/>
       </div>
     );
